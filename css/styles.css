@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+body {
+    font-family: 'Spartan';
+    background: rgba(248, 80, 50, 1);
+    background: -moz-linear-gradient(-45deg, rgba(248, 80, 50, 1) 0%, rgba(192, 39, 230, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(248, 80, 50, 1)), color-stop(100%, rgba(192, 39, 230, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(248, 80, 50, 1) 0%, rgba(192, 39, 230, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(248, 80, 50, 1) 0%, rgba(192, 39, 230, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(248, 80, 50, 1) 0%, rgba(192, 39, 230, 1) 100%);
+    background: linear-gradient(135deg, rgba(248, 80, 50, 1) 0%, rgba(192, 39, 230, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f85032', endColorstr='#c027e6', GradientType=1);
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 22.5rem;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+ 
+}
+
+.container {
+    width: 90%;
+    padding: 1rem;
+    margin: 0.625rem auto;
+    max-width: 20rem;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(49, 48, 48, 0.103);
+    border-radius: 0.3125rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    width: inherit;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile__image {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.profile__image--user {
+    max-width: 100%;
+    border-radius: 15.625rem;
+    border: 3px solid rgba(225, 228, 225, 0.349);
+    box-shadow: 0 0 6px rgb(233, 228, 228);
+    overflow: hidden;
+}
+
+.profile__info {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+
+.profile__info--camera,
+.profile__info--video,
+.profile__info--trash {
+    opacity: .2;
+    width: 1.125rem;
+    line-height: 44px;
+}
+
+.profile__info--video {
+     width: 1.375rem;
+}
+
+.profile__info--trash {
+    width: 0.9375rem;
+}
+
+.profile__info--name {
+    font-size: 0.875rem;
+}
+
+.follow {
+    color: #6B7BE8;
+    font-weight: bold;
+}
+
+.delete {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 100%;
+    background-color: rgba(184, 170, 170, 0.123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.delete:hover {
+     background-color: rgba(224, 77, 77, 0.199);
+}
+
+
+
+
+
+​
+
+
+
